@@ -1,4 +1,4 @@
-#RabbitMq Cluser
+# RabbitMq Cluser
 
 ```
     docker-compose up -d
