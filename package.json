@@ -1,0 +1,13 @@
+{
+  "name": "rabbitmq-node-tutorial",
+  "version": "1.0.0",
+  "description": "RabbitMQ amqp.node tutorial ",
+  "scripts": {
+    "send":"node ./send.js",
+    "receive":"node ./receive.js",
+    "start": "npm run send && npm run receive"
+  },
+  "dependencies": {
+    "amqplib": "latest" 
+  }
+}
